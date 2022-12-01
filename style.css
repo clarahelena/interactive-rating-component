@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+    border-style: none;
+}
+
+body {
+    background: hsl(216, 12%, 8%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-page {
+    
+    background: hsl(213, 19%, 18%);
+    max-width: 416px;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.final-page {
+    background: hsl(213, 19%, 18%);
+    max-width: 416px;
+    padding: 40px;
+    border-radius: 15px;
+    display: none;
+    justify-items: center;
+    text-align: center;
+}
+
+.estrela {
+
+    background: hsl(213, 18%, 29%);
+    padding: 10px 13px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    padding: 30px 0 10px 0;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+.lista {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.lista li {
+    color: hsl(217, 12%, 63%);
+    background: hsl(214, 18%, 23%);
+    padding: 9px 16px 9px 16px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+button {
+    background: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px 135px;
+    border-radius: 20px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.lista li.clicado {
+    background: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.h2-final {
+    font-size: 15px;
+    color: hsl(25, 97%, 53%);
+    background: hsl(214, 18%, 23%);
+    padding: 5px 15px;
+    border-radius: 12px;
+    margin-top: 16px;
+}
+
+.hide {
+    display: none;
+}
+
+.see {
+    display: grid;
+}
+
+li.previa {
+    color: white;
+    background: hsl(217, 12%, 63%);
+}
