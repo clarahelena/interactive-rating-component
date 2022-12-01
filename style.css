@@ -108,3 +108,17 @@ li.previa {
     color: white;
     background: hsl(217, 12%, 63%);
 }
+
+@media(max-width: 460px) {
+    .start-page {
+        max-width: 350px;
+        padding: 25px;
+    }
+    h1 {
+        font-size: 1.75rem;
+    }
+    button {
+       max-width: 100%;
+       padding: 15px 115px;
+    }
+}
